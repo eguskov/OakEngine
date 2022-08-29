@@ -1,6 +1,7 @@
 
 #include "Root/Scenes/SceneEntity.h"
 #include "Root/Root.h"
+#include "Support/FileSystemUtils.h"
 
 namespace Oak
 {
@@ -64,7 +65,10 @@ namespace Oak
 				index++;
 			}
 
-			LoadScene(&scenes[startScene]);
+			{
+				FileSystemUtils::ScopedCurrentDirectory cwd(projectPath);
+				LoadScene(&scenes[startScene]);
+			}
 		}
 	}
 

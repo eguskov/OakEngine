@@ -163,6 +163,9 @@
     <ClCompile Include="..\..\..\ENgine\Support\StringUtils.cpp">
       <Filter>ENgine\Support</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\ENgine\Support\FileSystemUtils.cpp">
+      <Filter>ENgine\Support</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\..\ENgine\Support\Math\Math.cpp">
       <Filter>ENgine\Support\Math</Filter>
     </ClCompile>

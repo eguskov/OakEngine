@@ -517,6 +517,7 @@
     <ClCompile Include="..\..\..\ENgine\Support\Spark\Extensions\Zones\SPK_Sphere.cpp" />
     <ClCompile Include="..\..\..\ENgine\Support\Sprite.cpp" />
     <ClCompile Include="..\..\..\ENgine\Support\StringUtils.cpp" />
+    <ClCompile Include="..\..\..\ENgine\Support\FileSystemUtils.cpp" />
     <ClCompile Include="..\..\..\ENgine\Support\ThreadExecutor.cpp" />
     <ClCompile Include="..\..\..\ENgine\Support\Timer.cpp" />
     <ClCompile Include="..\..\..\Libs\imgui\imgui.cpp" />
